@@ -36,6 +36,10 @@
     <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkItem.ps1" />
     <Compile Include="Adsk.CreateTCLinks\Modules\ADSK.CreateTCLinks.psm1" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Adsk.CreateTCLinks\ReadMe.txt" />
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
 </Project>
