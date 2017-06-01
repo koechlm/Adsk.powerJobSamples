@@ -25,9 +25,16 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Folder Include="Adsk.CreateTCLinks\Jobs\" />
+    <Folder Include="Adsk.CreateTCLinks\Modules\" />
+    <Folder Include="Adsk.CreateTCLinks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkFile.ps1" />
+    <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkFolder.ps1" />
+    <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkItem.ps1" />
+    <Compile Include="Adsk.CreateTCLinks\Modules\ADSK.CreateTCLinks.psm1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
