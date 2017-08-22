@@ -29,15 +29,20 @@
     <Folder Include="Adsk.CreateTCLinks\Jobs\" />
     <Folder Include="Adsk.CreateTCLinks\Modules\" />
     <Folder Include="Adsk.CreateTCLinks\" />
+    <Folder Include="ADSK.Office\" />
+    <Folder Include="ADSK.Office\Jobs\" />
+    <Folder Include="ADSK.Office\Modules\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkFile.ps1" />
     <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkFolder.ps1" />
     <Compile Include="Adsk.CreateTCLinks\Jobs\ADSK.TCLinkItem.ps1" />
     <Compile Include="Adsk.CreateTCLinks\Modules\ADSK.CreateTCLinks.psm1" />
+    <Compile Include="ADSK.Office\Jobs\ADSK.Office.CreatePDF.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Adsk.CreateTCLinks\ReadMe.txt" />
+    <Content Include="ADSK.Office\ReadMe.txt" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
